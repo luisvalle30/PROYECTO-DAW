@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+h1{
+	display: block;;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: black;
+	margin-bottom: 50px;
+}
+
+#noticias{
+	width: 35%;
+	background: rgba(0, 0, 0, 0.4);
+	float: left;
+	height: auto;
+}
+
+#contenedor1{
+	margin: 20px;
+	box-sizing: border-box;
+}
+
+h3{
+	font-family:  'Oswald', sans-serif;
+	color: white;
+}
+
+p{
+	color: white;
+	text-align: justify;
+}
+
+.juegos{
+	font-family: Arial;
+}
+
+aside img{
+	width: 100%;
+	height: 350px;
+}
+
+hr{
+	
+	width: 80%;
+	margin:  0 auto;
+}
+
+#contenido{
+	float: right;
+	width: 60%;
+	height: auto;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+#section2{
+	color: white;
+}
+
+iframe{
+	display: block;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	border: none;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+	color: white;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+/*Y AQUI FINALIZA :(*/

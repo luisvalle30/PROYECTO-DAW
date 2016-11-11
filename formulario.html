@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" href="css/estiPlan.css">
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+	<script type="text/javascript" src="js/comentar.js"></script>
+</head>
+<body>
+	
+		<input type="checkbox" id="teamenu">
+	<label for="teamenu"><img src="img/icono.png" alt=""></label>
+			<div class="menunav">
+					<nav>
+						<ul id="principal">
+							<li>
+								<i class="fa fa-home" aria-hidden="true"></i><a href="inicio.html">Inicio</a>
+							</li>
+							<li>
+								<i class="fa fa-book" aria-hidden="true"></i><a href="reglas.html">Reglas</a>
+							</li>
+							<li>
+								<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+								<a href="curioso.html"> Curiosidades</a></li>
+							<li>
+								<i class="fa fa-male" aria-hidden="true"></i><a href="personajes.html">Personajes</a>
+								
+							</li>	
+							<li>
+								<i class="fa fa-play" aria-hidden="true"></i>
+								<a href="jugar.html">A JUGAR!</a>
+									
+							</li>
+
+							<li>
+								<i class="fa fa-coffee" aria-hidden="true"></i><a href="creadores.html"> Creadores</a></li>
+								<li>
+								<i class="fa fa-user" aria-hidden="true"></i>
+								<a href="formulario.html">Contactanos</a>
+									
+							</li>
+
+						</ul>
+					</nav>
+			</div>
+
+	<section id="contenedor">
+		<label><h1>Contáctanos </h1> </label>
+		<p> ¡¿Tienes dudas?! Envianos tu comentario a través del siguiente formulario</p>
+		<form class="form-horizontal"> 
+		<fieldset> 
+			<!-- Form Name --> 
+			<legend>Información</legend> 
+			<!-- Text input--> 
+			<div class="form-group"> 
+				<label class="col-md-4 control-label" for="textnombre">Nombre</label> 
+				<div class="col-md-4"> 
+					<input id="textnombre" name="textnombre" type="text" placeholder="Nombre" class="form-control input-md"> 
+					<span class="help-block">Ingrese su nombreo o nickname</span> 
+
+
+
+					<label class="col-md-4 control-label" for="textpais">Pais</label> 
+				<div class="col-md-4"> 
+					<input id="textpais" name="textpais" type="text" placeholder="Pais" class="form-control input-md"> 
+					<span class="help-block">Ingrese su pais de origen</span> 
+				</div> 
+			</div> 
+			<!-- Select Basic --> 
+			<div class="form-group"> 
+				<label class="col-md-4 control-label" for="selectbasic">Opcion de Comentario</label> <div class="col-md-4"> 
+				<select id="selectbasic" name="selectbasic" class="form-control"> 
+					<option value="NEGATIVO">Queja</option> 
+					<option value="POSITIVO">Felicitacion</option> 
+				</select> 
+				</div>
+			</div>
+			<!-- Textarea --> 
+			<div class="form-group"> 
+				<label class="col-md-4 control-label" for="textcontenido">Comentario</label> 
+				<div class="col-md-4"> 
+					<textarea class="form-control" id="textcontenido" name="textcontenido"></textarea> 
+				</div> 
+			</div> 
+			<!-- Button --> 
+			<div class="form-group"> 
+				<label class="col-md-4 control-label" for="singlebutton"></label> 
+				<div class="col-md-4"> 
+					<input type="button" id="btncomentar" name="btncomentar" class="btn btn-primary" value="Comentar"> 
+				</div> 
+			</div> 
+		</fieldset> 
+	</form> 
+	<div id="Comentarios" class="container"> 
+		<h1>Comentarios sobre Servicios:</h1> 
+	</div> 
+	<footer class="navbar-default navbar-fixed-bottom"> 
+		<div class="container-fluid"> 
+			<span>Guia 7 - Manejo de DOM</span> 
+		</div> 
+	</footer> 
+		
+	</section>
+	
+		
+	</section>
+</body>
+</html>

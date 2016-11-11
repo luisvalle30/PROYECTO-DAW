@@ -1,0 +1,23 @@
+body{
+	background-color: rgb(133,131,142 );
+	background-image: url(../img/fondo.jpg) ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+#contenedor{
+	background-color: rgba(0,0,0,0.2);	
+	font-family: arial;
+	overflow: hidden;	
+}
+
+
+
+img{
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

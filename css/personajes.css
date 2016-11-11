@@ -1,0 +1,40 @@
+#foto{
+	/*width: 40%;*/
+	height: 90%;
+	float: right;
+	margin: 30px;
+	
+}
+
+#contenedor{
+	margin:0 auto;
+	max-width: 1200px;
+	min-width: 800px;
+	width: 80%;
+	height: 600px;
+	max-height: 90%;
+}
+
+h1{
+	display: block;
+	color: white;
+	top: 320px;
+	position: relative;
+	margin-left: 40px;
+	text-shadow: 1px 1px 0.60px #57576B;
+
+}
+
+#desper{
+	text-align: justify;
+	padding: 2%;
+	font-family: arial;
+	color: white;
+	display: block;
+	position: relative;
+	top: 320px;
+	text-shadow: 1px 1px 0.60px #57576B;
+	background-color: rgba(0,0,0,0.25);
+	width: 65%;
+	z-index: -1;
+}

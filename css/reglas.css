@@ -1,0 +1,110 @@
+
+
+#titulo{
+	margin: 2%;
+	position: relative;
+	top: 6%;
+	right: -20%;
+	max-width: 800px;
+	margin-right: 800px;
+}
+#explica{
+	display: block;
+	
+	position: relative;
+	clear: both;
+	
+	padding: 0.8%;
+	text-align: justify;
+	font-size: 16pt;
+	color: white;
+	text-shadow: 1px 1px 0.60px #57576B;
+	background-color: rgba(0,0,0,0.25);
+	
+}
+#contenedor{
+	margin:0 auto;
+	max-width: 90%;
+	width: 90%;
+	max-height: 99%;
+}
+#numerando{
+	width: 90%;
+	position: relative;
+	
+	
+
+	padding: 60px;
+}
+#personajes li a{
+	text-decoration: none;
+	font-size: 16pt;
+	color: white;
+}
+#personajes li a:hover{
+	color: blue;
+
+-webkit-transition: color 1s linear;
+-moz-transition: color 1s linear;
+-ms-transition: color 1s linear;
+-o-transition: color 1s linear;
+transition: color 1s linear;
+}
+	
+h1{
+	color: white;
+	text-align: center;
+}
+h2{
+	color: white;
+}
+
+
+
+#personajes{
+ 	background-color: rgba(0,0,0,0.25);
+ 	display: block;
+ 	width: 300px;
+ 	height: 330px;
+ 	margin: 50px;
+	position: relative;
+	float: left;
+	top: 47%;
+	right: -10%;
+	max-width: 800px;
+	overflow: hidden;
+	padding: 0.8%;
+	text-align: justify;
+	font-size: 10pt;
+	text-shadow: 1px 1px 0.60px #57576B;
+ }
+
+ 
+ #imagenes{
+ 	background-color: rgba(0,0,0,0.25);
+ 	width: 250px;
+ 	height: 350px;
+ 	margin: 50px;
+ 	padding: 4px;
+	position: relative;
+	float: left;
+	top: 32%;
+	max-width: 800px;
+	left: 300px;
+	
+ }
+#titulo{
+	margin: 2%;
+	position: relative;
+	top: 6%;
+	right: -20%;
+	max-width: 800px;
+	margin-right: 800px;
+}
+
+
+}
+img #iron{
+	width: 300px;
+	height:300px;
+}

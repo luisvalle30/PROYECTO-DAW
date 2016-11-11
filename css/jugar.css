@@ -1,0 +1,66 @@
+
+#contenedor{
+	
+	
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center;
+	background-size: 1200px 800px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#marcadores{
+
+	width: 500px;
+	height: 60px;
+	text-align: center;
+	background-color: black;
+	
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+#contador{
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	background-color: black;
+	color: green;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+	float: right;
+}
+#cronometro{
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	background-color: black;
+	color: green;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 15px;
+}
+#contador  table  td{
+	padding: 3px;
+	width: 90px;
+	
+}
+#dado{
+	display: block;
+	float: right;
+}
+canvas{
+	background-image: url(../img/new.png) ;
+background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center;
+	background-size: 1200px 800px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
